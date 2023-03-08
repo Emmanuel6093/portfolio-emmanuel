@@ -1,6 +1,9 @@
 import React from 'react'
 import Section from './common/Section'
 
+import p3 from '../assets/p3.jpg'
+import p5 from '../assets/p5.jpg'
+
 import { FaGithub, FaExternalLinkSquareAlt } from 'react-icons/fa'
 
 const Portfolio = () => {
@@ -8,7 +11,14 @@ const Portfolio = () => {
     const projects = [ 
         {
             id: 1, 
-            // image: , 
+            image: p3, 
+            title: 'Best App', 
+            github: 'https://github.com',
+            demo: "https://google.com"
+        },
+        {
+            id: 2, 
+            image: p5, 
             title: 'Best App', 
             github: 'https://github.com',
             demo: "https://google.com"
@@ -25,12 +35,12 @@ const Portfolio = () => {
 
             {projects.map(({id, image, title, github, demo}) => (
 
-                <div>
-                    <img src={image} alt="" />
-                    <div>
+                <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-clip'>
+                    <img src={image} alt={title} className='w-2/3'/>
+                    <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
                         <h2>{title}</h2>
-                        <a href=""><FaGithub /></a>
-                        <a href=""><FaExternalLinkSquareAlt/></a>
+                        <a href={github}><FaGithub /></a>
+                        <a href={demo}><FaExternalLinkSquareAlt/></a>
                     </div>
                 </div>
 
