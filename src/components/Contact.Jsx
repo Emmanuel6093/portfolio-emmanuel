@@ -29,17 +29,25 @@ const Contact = () => {
       subtitle='These are ways you can get in touch with me. Hope to hear back!'
       >
 
-      <div>
-        <div><img src={contact} alt="" /></div>
+      <div className='flex flex-col items-center justify-center gap-8 text-center'>
+        <div>
+          <img src={contact} alt="contact info" className='w-32 h-32' />
+          </div>
           <div>
-            <p>
+            <p className='max-w-xs md:max-w-lg font-extralight'>
               I am open to talk regarding full-time opportunities. Feel free to contact me using your preferred way.
             </p>
           </div>
-          <div>
+          <div className='flex w-full items-center justify-evenly text-3xl'>
             {SOCIAL.map(({id, link, icon}) => (
-              <a href="">{icon}</a>
+              <a href={link} target='_blank' rel='noopener noreferrer' className='duration-200 ease-in-out hover:text-rose-600'>{icon}</a>
             ))}
+          </div>
+
+
+          {/* bottom form */}
+          <div className=''>
+            <form action=""></form>
           </div>
       </div>
     </Section>
