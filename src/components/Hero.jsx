@@ -64,7 +64,7 @@ const Hero = () => {
         <img
           src={avatar}
           alt="avatar of Emmanuel"
-          className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-red-600 rounded-xl pt-5"
+          className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-red-600 rounded-xl pt-7"
         />
         <a
           href="ADD RESUME HERE"
