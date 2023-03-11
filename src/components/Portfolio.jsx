@@ -1,8 +1,12 @@
 import React from "react";
 import Section from "./common/Section";
 
-import p3 from "../assets/p3.jpg";
-import p5 from "../assets/p5.jpg";
+import budget2 from "../assets/budget2.png";
+import searchbooks from "../assets/searchbooks.png";
+import techblog from '../assets/tech-blog.png';
+import weatherdashboard from '../assets/weatherdashboard.png';
+import workday from '../assets/workday.png'
+import taskmaster from '../assets/taskmaster.png'
 
 import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 
@@ -10,16 +14,44 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      image: p3,
-      title: "Best App",
-      github: "https://github.com",
+      image: budget2,
+      title: "Budget Tracker",
+      github: "https://github.com/Emmanuel6093/budget-tracker",
       demo: "https://google.com",
     },
     {
       id: 2,
-      image: p5,
-      title: "Best App",
-      github: "https://github.com",
+      image: searchbooks,
+      title: "Book Search Engine",
+      github: "https://github.com/Emmanuel6093/book-search-engine",
+      demo: "https://google.com",
+    },
+    {
+      id: 3,
+      image: techblog,
+      title: "Tech Blog",
+      github: "https://github.com/Emmanuel6093/tech-blog",
+      demo: "https://google.com",
+    },
+    {
+      id: 4,
+      image: weatherdashboard,
+      title: "Weather Dashboard",
+      github: "https://github.com/Emmanuel6093/weather-dashboard",
+      demo: "https://google.com",
+    },
+    {
+      id: 5,
+      image: workday,
+      title: "Work Day Scheduler",
+      github: "https://github.com/Emmanuel6093/workday-sche",
+      demo: "https://google.com",
+    },
+    {
+      id: 6,
+      image: taskmaster,
+      title: "TaskMaster Pro",
+      github: "https://github.com/Emmanuel6093/taskmaster-pro",
       demo: "https://google.com",
     },
   ];
