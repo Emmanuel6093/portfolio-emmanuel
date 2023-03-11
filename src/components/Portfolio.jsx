@@ -39,7 +39,7 @@ const Portfolio = () => {
             <div className="w-1/3 flex flex-col items-center justify-evenly p-1">
               <h2>{title}</h2>
               <a
-                className="text-2xl cursor-pointer duration-150 hover:scale-110"
+                className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110"
                 href={github}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const Portfolio = () => {
               </a>
 
               <a
-                className="text-2xl cursor-pointer duration-150 hover:scale-110"
+                className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110"
                 href={demo}
                 target="_blank"
                 rel="noopener noreferrer"
