@@ -46,8 +46,47 @@ const Contact = () => {
 
 
           {/* bottom form */}
-          <div className=''>
-            <form action=""></form>
+          <div className='p-8 text-left w-full'>
+            <form action="" method='POST'>
+              <div className='w-full'>
+                <div className='flex flex-col'>
+                    <label className='capitalize text-sm py-2 font-extralight'>
+                      name
+                    </label>
+                    <input 
+                    type="text" 
+                    name='name' 
+                    className='border-2 rounded-lg p-3 flex focus:outline-none border-gray-400 dark:bg-gray-900 dark:text-white'
+                    />
+                </div>
+                <div className='flex flex-col my-2'>
+                    <label className='capitalize text-sm py-2 font-extralight'>
+                      phone
+                    </label>
+                    <input 
+                    type="text" 
+                    name='phone' 
+                    className='border-2 rounded-lg p-3 flex focus:outline-none border-gray-400 dark:bg-gray-900 dark:text-white'
+                    />
+                </div>
+                <div className='flex flex-col my-2'>
+                    <label className='capitalize text-sm py-2 font-extralight'>
+                      email
+                    </label>
+                    <input 
+                    type="text" 
+                    name='email' 
+                    className='border-2 rounded-lg p-3 flex focus:outline-none border-gray-400 dark:bg-gray-900 dark:text-white'
+                    />
+                </div>
+                <div className='flex flex-col'>
+                    <label className='capitalize text-sm py-2 font-extralight'>
+                      message
+                    </label>
+                    <textarea name="message" rows="10" className='border-2 rounded-lg p-3 flex focus:outline-none border-gray-400 dark:bg-gray-900 dark:text-white resize-none'></textarea>
+                </div>
+              </div>
+            </form>
           </div>
       </div>
     </Section>
