@@ -47,7 +47,7 @@ const Contact = () => {
 
           {/* bottom form */}
           <div className='p-8 text-left w-full items-center justify-center'>
-            <form action="" method='POST'>
+            <form action="https://getform.io/f/ef7a5eef-31fb-42d2-b1b8-33e2fe6ecaf9" method='POST'>
               <div className='w-full'>
                 <div className='flex flex-col'>
                     <label className='capitalize text-sm py-2 font-extralight'>
