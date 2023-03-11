@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
           <div className='flex w-full items-center justify-evenly text-3xl'>
             {SOCIAL.map(({id, link, icon}) => (
-              <a href={link} target='_blank' rel='noopener noreferrer' className='duration-200 ease-in-out hover:text-rose-600'>{icon}</a>
+              <a key={id} href={link} target='_blank' rel='noopener noreferrer' className='duration-200 ease-in-out hover:text-rose-600'>{icon}</a>
             ))}
           </div>
 
