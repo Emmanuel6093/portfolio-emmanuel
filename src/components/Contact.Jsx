@@ -30,9 +30,11 @@ const Contact = () => {
       >
 
       <div>
-        <div><img src="" alt="" /></div>
+        <div><img src={contact} alt="" /></div>
           <div>
-            <p></p>
+            <p>
+              I am open to talk regarding full-time opportunities. Feel free to contact me using your preferred way.
+            </p>
           </div>
           <div>
             {SOCIAL.map(({id, link, icon}) => (
