@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
-import Contact from './components/Contact';
+import Contact from './components/ContactMe';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
