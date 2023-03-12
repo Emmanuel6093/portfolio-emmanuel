@@ -35,13 +35,9 @@ const Hero = () => {
       <h2 className="text-5xl text-rose-600 font-bold uppercase ">
         Emmanuel Lorenzo
       </h2>
-      <h3 className="py-3 text-2xl">Software Engineer</h3>
+      <h3 className="py-3 text-2xl">Frontend Developer</h3>
       <p className="max-w-xl font-light text-gray-500">
-        Hello <span className="animate-pulse text-4xl">👋</span> Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Mollitia recusandae
-        suscipit unde totam ducimus possimus tenetur alias? Omnis exercitationem
-        nemo eius asperiores quidem excepturi soluta voluptatem totam libero,
-        laboriosam reprehenderit.
+        Hello <span className="animate-pulse text-4xl">👋</span>I have 1.5 year of experience of building and designing web applications. Currently, I love to work on web applications using technologies like React, TailwindCSS, NextJs, etc.
       </p>
 
       {/* social icons */}
