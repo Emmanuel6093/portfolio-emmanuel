@@ -1,24 +1,24 @@
 import React from "react";
-import { FaLinkedin, FaArrowDown } from "react-icons/fa";
+import { FaLinkedin, FaArrowDown, FaSlack, FaGithub } from "react-icons/fa";
 import avatar from "../assets/avatar.png";
 
 const Hero = () => {
   const SOCIAL = [
     {
       id: 1,
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/in/emmanuellorenzom/",
       icon: <FaLinkedin />,
     },
-    // {
-    //     id: 1,
-    //     link: 'https://linkedin.com',
-    //     icon: <FaLinkedin />,
-    // },
-    // {
-    //     id: 1,
-    //     link: 'https://linkedin.com',
-    //     icon: <FaLinkedin />,
-    // },
+    {
+        id: 2,
+        link: 'https://emmanuellorenzo.slack.com/',
+        icon: <FaSlack />,
+    },
+    {
+        id: 3,
+        link: 'https://github.com/Emmanuel6093',
+        icon: <FaGithub />,
+    },
   ];
 
 

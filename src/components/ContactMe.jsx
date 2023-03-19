@@ -1,25 +1,25 @@
 import React from 'react'
 import Section from './common/Section'
 import contact from '../assets/mobile.png'
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaSlack, FaGithub} from "react-icons/fa";
 const Contact = () => {
 
   const SOCIAL = [
     {
       id: 1,
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/in/emmanuellorenzom/",
       icon: <FaLinkedin />,
     },
-    // {
-    //     id: 1,
-    //     link: 'https://linkedin.com',
-    //     icon: <FaLinkedin />,
-    // },
-    // {
-    //     id: 1,
-    //     link: 'https://linkedin.com',
-    //     icon: <FaLinkedin />,
-    // },
+    {
+        id: 2,
+        link: 'https://emmanuellorenzo.slack.com/',
+        icon: <FaSlack />,
+    },
+    {
+        id: 3,
+        link: 'https://github.com/Emmanuel6093',
+        icon: <FaGithub />,
+    },
   ];
 
 
