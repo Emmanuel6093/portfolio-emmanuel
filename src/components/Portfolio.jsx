@@ -8,7 +8,7 @@ import weatherdashboard from '../assets/weatherdashboard.png';
 import workday from '../assets/workday.png'
 import taskmaster from '../assets/taskmaster.png'
 
-import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Portfolio = () => {
   const projects = [
@@ -62,7 +62,7 @@ const Portfolio = () => {
       subtitle="These are some of the projects that I have worked on."
     >
       <div className="grid gap-8 lg:gap-14 lg:grid-cols-2">
-        {projects.map(({ id, image, title, github, demo }) => (
+        {projects.map(({ id, image, title, github }) => (
           <div
             key={id}
             className="max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-clip"
@@ -79,14 +79,7 @@ const Portfolio = () => {
                 <FaGithub />
               </a>
 
-              <a
-                className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110"
-                href={demo}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaExternalLinkSquareAlt />
-              </a>
+              
             </div>
           </div>
         ))}
