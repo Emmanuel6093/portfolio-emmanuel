@@ -37,7 +37,7 @@ const Hero = () => {
       </h2>
       <h3 className="py-3 text-2xl">Full-Stack Developer</h3>
       <p className="max-w-xl font-light text-gray-500">
-        Hello <span className="animate-pulse text-4xl">👋</span>I have 1.5 year of experience of building and designing web applications. Currently, I love to work on web applications using technologies like React, TailwindCSS, NextJs, etc.
+        Hello <span className="animate-pulse text-4xl">👋</span>I have 2 years of experience of building and designing web applications. Currently, I love to work on web applications using technologies like React, TailwindCSS, NextJs, etc.
       </p>
 
       {/* social icons */}
